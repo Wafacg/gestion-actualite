@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+</head>
+
+<body>
+    {{#each actualites}}
+    <div class="actualite-container">
+        <h1 class="actualite-title">{{titre}}</h1>
+        <p class="actualite-description">{{description}}</p>
+        <h4 class="actualite-date">Date: {{date}}</h4>
+    </div>
+    {{/each}}
+</body>
+
+</html>
